@@ -2,7 +2,7 @@
 🔥 OMEGA v6.0 — Digital Omni-Tool AI-driven, stealth-optimized, full-spectrum cyber framework. Scans, exploits, pivots, persists — autonomous &amp; silent. Integrated with 10+ threat intel APIs. Event-driven, multi-agent, zero restrictions.  Deploy. Dominate. Disappear.  ---  ⚠️ WARNING: Unauthorized use is illegal. For authorized security testing only
 
 ### 🤝 Support the Project
-Developing and maintaining a massive open-source project like OMEGA v4.0 requires hundreds of hours of coding, research, and testing. If you find this cybersecurity tool useful and want to keep the development going, please consider supporting my work.
+Developing and maintaining a massive open-source project like OMEGA v6.0 requires hundreds of hours of coding, research, and testing. If you find this cybersecurity tool useful and want to keep the development going, please consider supporting my work.
 
 Your contributions will directly help me upgrade my development environment, cover server costs, and continue building advanced tools for the community as a Technical Soldier. 
 
