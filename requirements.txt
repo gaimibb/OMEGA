@@ -1,0 +1,111 @@
+# Core Essentials
+numpy
+pandas
+scikit-learn
+joblib
+scipy
+requests
+cryptography
+paramiko
+netmiko
+dnspython
+netifaces
+scapy
+impacket
+
+# Database
+sqlalchemy
+redis
+pymongo
+psycopg2
+mysql-connector-python
+
+# Web & API
+flask
+fastapi
+uvicorn
+aiohttp
+httpx
+selenium
+playwright
+
+# AI/ML
+tensorflow
+torch
+transformers
+langchain
+openai
+anthropic
+
+# Threat Intelligence
+shodan
+censys
+virustotal
+alienvault
+greynoise
+securitytrails
+hunterio
+zoomeye
+fofa
+quake
+
+# Stealth & Anonymity
+stem (Tor)
+pysocks
+obfs4
+privy
+steganography
+
+# Utilities
+tqdm
+colorama
+rich
+click
+pyyaml
+toml
+python-dotenv
+watchdog
+psutil
+schedule
+celery
+pillow
+opencv-python
+pytesseract
+pdfplumber
+docx
+openpyxl
+pymupdf
+whois
+beautifulsoup4
+lxml
+pyppeteer
+undetected-chromedriver
+
+# AI Agents
+crewai
+autogen
+langgraph
+memgpt
+llama-index
+haystack
+rq
+
+# Network Scanning
+ncclient
+pysnmp
+pcapy
+pynput
+pyautogui
+
+# Cloud SDKs
+boto3 (AWS)
+google-cloud-sdk (GCP)
+azure-sdk (Azure)
+digitalocean
+linode
+vultr
+
+# Message Queues
+pika (RabbitMQ)
+kafka-python
+paho-mqtt
