@@ -242,27 +242,6 @@ Runs Anywhere. Adapts to Everything.
 
 ---
 
-✅ 1. OPERATING SYSTEMS (FULL SUPPORT)
-
-OS Version Status Notes
-Linux Ubuntu 18.04+ ✅ Native Optimal performance
-Linux Debian 10+ ✅ Native Full compatibility
-Linux Kali Linux ✅ Native Pre-installed tools
-Linux Parrot OS ✅ Native Security-focused
-Linux CentOS/RHEL 7+ ✅ Native Enterprise ready
-Linux Arch Linux ✅ Native Rolling release
-Linux Fedora 35+ ✅ Native Modern packages
-macOS 10.15+ (Catalina) ✅ Native Intel & Apple Silicon
-macOS 11+ (Big Sur) ✅ Native M1/M2/M3 support
-macOS 12+ (Monterey) ✅ Native Full compatibility
-Windows 10 (1809+) ✅ Native WSL2 recommended
-Windows 11 ✅ Native Full Python support
-Windows Server 2019+ ✅ Native Enterprise deployment
-FreeBSD 12+ ✅ Partial Limited testing
-Android 10+ (Termux) ✅ Partial Mobile operations
-Android 10+ (Nix-on-Droid)  ✅ Partial Mobile operations
----
-
 🖥️ 2. HARDWARE ARCHITECTURES
 
 Architecture Support Notes
@@ -383,6 +362,7 @@ Linux (Ubuntu/Debian)
 
 ```bash
 sudo apt update && sudo apt install python3 python3-pip -y
+pip install numpy pandas scikit-learn joblib scipy requests cryptography paramiko netmiko dnspython netifaces scapy impacket sqlalchemy redis pymongo psycopg2 mysql-connector-python flask fastapi uvicorn aiohttp httpx selenium playwright tensorflow torch transformers langchain openai anthropic shodan censys virustotal alienvault greynoise securitytrails hunterio zoomeye fofa quake stem pysocks obfs4 privy steganography tqdm colorama rich click pyyaml toml python-dotenv watchdog psutil schedule celery pillow opencv-python pytesseract pdfplumber docx openpyxl pymupdf whois beautifulsoup4 lxml pyppeteer undetected-chromedriver crewai autogen langgraph memgpt llama-index haystack rq ncclient pysnmp pcapy pynput pyautogui boto3 google-cloud-sdk azure-sdk digitalocean linode vultr pika kafka-python paho-mqtt
 python3 omega.py
 ```
 
@@ -396,6 +376,7 @@ macOS
 
 ```bash
 brew install python3
+pip install numpy pandas scikit-learn joblib scipy requests cryptography paramiko netmiko dnspython netifaces scapy impacket sqlalchemy redis pymongo psycopg2 mysql-connector-python flask fastapi uvicorn aiohttp httpx selenium playwright tensorflow torch transformers langchain openai anthropic shodan censys virustotal alienvault greynoise securitytrails hunterio zoomeye fofa quake stem pysocks obfs4 privy steganography tqdm colorama rich click pyyaml toml python-dotenv watchdog psutil schedule celery pillow opencv-python pytesseract pdfplumber docx openpyxl pymupdf whois beautifulsoup4 lxml pyppeteer undetected-chromedriver crewai autogen langgraph memgpt llama-index haystack rq ncclient pysnmp pcapy pynput pyautogui boto3 google-cloud-sdk azure-sdk digitalocean linode vultr pika kafka-python paho-mqtt
 python3 omega.py
 ```
 
@@ -411,6 +392,7 @@ Raspberry Pi
 
 ```bash
 sudo apt install python3 python3-pip
+pip install numpy pandas scikit-learn joblib scipy requests cryptography paramiko netmiko dnspython netifaces scapy impacket sqlalchemy redis pymongo psycopg2 mysql-connector-python flask fastapi uvicorn aiohttp httpx selenium playwright tensorflow torch transformers langchain openai anthropic shodan censys virustotal alienvault greynoise securitytrails hunterio zoomeye fofa quake stem pysocks obfs4 privy steganography tqdm colorama rich click pyyaml toml python-dotenv watchdog psutil schedule celery pillow opencv-python pytesseract pdfplumber docx openpyxl pymupdf whois beautifulsoup4 lxml pyppeteer undetected-chromedriver crewai autogen langgraph memgpt llama-index haystack rq ncclient pysnmp pcapy pynput pyautogui boto3 google-cloud-sdk azure-sdk digitalocean linode vultr pika kafka-python paho-mqtt
 python3 omega_v6.py
 ```
 
@@ -418,6 +400,7 @@ Android (Termux)
 
 ```bash
 pkg install python
+pip install numpy pandas scikit-learn joblib scipy requests cryptography paramiko netmiko dnspython netifaces scapy impacket sqlalchemy redis pymongo psycopg2 mysql-connector-python flask fastapi uvicorn aiohttp httpx selenium playwright tensorflow torch transformers langchain openai anthropic shodan censys virustotal alienvault greynoise securitytrails hunterio zoomeye fofa quake stem pysocks obfs4 privy steganography tqdm colorama rich click pyyaml toml python-dotenv watchdog psutil schedule celery pillow opencv-python pytesseract pdfplumber docx openpyxl pymupdf whois beautifulsoup4 lxml pyppeteer undetected-chromedriver crewai autogen langgraph memgpt llama-index haystack rq ncclient pysnmp pcapy pynput pyautogui boto3 google-cloud-sdk azure-sdk digitalocean linode vultr pika kafka-python paho-mqtt
 python omega.py
 ```
 
