@@ -22,7 +22,7 @@ Enterprise Cyber Operations Framework — Zero Setup, Full Power
 
 ```bash
 # Clone or create the file
-python3 omega_v6.py
+python3 omega.py
 
 # The framework auto-installs ALL dependencies on first run
 # No manual setup required
@@ -33,7 +33,7 @@ python3 omega_v6.py
 🔑 2. FIRST RUN (Interactive Setup)
 
 ```bash
-python3 omega_v6.py
+python3 omega.py
 ```
 
 You'll be prompted for:
@@ -237,7 +237,224 @@ Issue Solution
 OMEGA v6.0 — No Limits. No Boundaries. Pure Power.
 Deploy. Dominate. Disappear.
 "The only limit is your imagination — and OMEGA has none."
+🖥️ OMEGA v6.0 — SUPPORTED PLATFORMS & SYSTEMS
+Runs Anywhere. Adapts to Everything.
 
+---
+
+✅ 1. OPERATING SYSTEMS (FULL SUPPORT)
+
+OS Version Status Notes
+Linux Ubuntu 18.04+ ✅ Native Optimal performance
+Linux Debian 10+ ✅ Native Full compatibility
+Linux Kali Linux ✅ Native Pre-installed tools
+Linux Parrot OS ✅ Native Security-focused
+Linux CentOS/RHEL 7+ ✅ Native Enterprise ready
+Linux Arch Linux ✅ Native Rolling release
+Linux Fedora 35+ ✅ Native Modern packages
+macOS 10.15+ (Catalina) ✅ Native Intel & Apple Silicon
+macOS 11+ (Big Sur) ✅ Native M1/M2/M3 support
+macOS 12+ (Monterey) ✅ Native Full compatibility
+Windows 10 (1809+) ✅ Native WSL2 recommended
+Windows 11 ✅ Native Full Python support
+Windows Server 2019+ ✅ Native Enterprise deployment
+FreeBSD 12+ ✅ Partial Limited testing
+Android 10+ (Termux) ✅ Partial Mobile operations
+
+---
+
+🖥️ 2. HARDWARE ARCHITECTURES
+
+Architecture Support Notes
+x86_64 (64-bit) ✅ Full Standard deployment
+x86 (32-bit) ✅ Full Legacy systems
+ARM64 (AArch64) ✅ Full Raspberry Pi, AWS Graviton
+ARMv7 (32-bit) ✅ Partial Raspberry Pi 3, mobile
+Apple Silicon (M1/M2/M3) ✅ Full Native arm64 support
+PowerPC ⚠️ Limited Not recommended
+RISC-V ⚠️ Experimental Future support
+
+---
+
+📦 3. DEPLOYMENT ENVIRONMENTS
+
+Environment Compatibility Notes
+Bare Metal ✅ Full Maximum performance
+Virtual Machines ✅ Full VMware, VirtualBox, KVM
+Docker Containers ✅ Full Containerized deployment
+Kubernetes ✅ Full Pod deployment
+Cloud VMs (AWS, GCP, Azure) ✅ Full Production ready
+Raspberry Pi (3/4/5) ✅ Full IoT edge operations
+Android Termux ✅ Partial Limited network functions
+WSL2 (Windows) ✅ Full Best Windows experience
+Cygwin (Windows) ✅ Partial Limited testing
+
+---
+
+🐍 4. PYTHON VERSIONS
+
+Python Version Support Notes
+3.8 ✅ Full Minimum requirement
+3.9 ✅ Full Stable performance
+3.10 ✅ Full Recommended
+3.11 ✅ Full Best performance
+3.12 ✅ Full Latest features
+3.13 (dev) ✅ Full Experimental support
+
+---
+
+🌐 5. NETWORK COMPATIBILITY
+
+Network Type Support Notes
+IPv4 ✅ Full Complete support
+IPv6 ✅ Full Native support
+LAN (Ethernet/WiFi) ✅ Full All local networks
+VPN (OpenVPN, WireGuard) ✅ Full Stealth operations
+TOR Network ✅ Full Anonymization
+Proxy Chains (HTTP/SOCKS) ✅ Full Multi-hop routing
+NAT Environments ✅ Full Works behind NAT
+Air-Gapped Networks ✅ Full Offline mode available
+
+---
+
+🛠️ 6. DATABASE BACKENDS
+
+Database Support Use Case
+SQLite ✅ Default Embedded storage
+Redis ✅ Optional Caching, real-time
+MongoDB ✅ Optional Document storage
+PostgreSQL ✅ Optional Enterprise data
+MySQL ✅ Optional Traditional storage
+Elasticsearch ✅ Optional Logging, search
+InfluxDB ✅ Optional Time-series metrics
+
+---
+
+🔌 7. EXTERNAL TOOLS INTEGRATION
+
+Tool Support Auto-Detect
+Nmap ✅ Full Yes
+Masscan ✅ Full Yes
+SQLMap ✅ Full Yes
+Nikto ✅ Full Yes
+WPScan ✅ Full Yes
+Aircrack-ng ✅ Full Yes
+Hydra ✅ Full Yes
+Metasploit ✅ Partial Via API
+Burp Suite ✅ Partial Via API
+Gobuster ✅ Full Yes
+Dirb ✅ Full Yes
+
+---
+
+🔑 8. API INTEGRATIONS
+
+Service Support Required
+Shodan ✅ Full API Key
+Censys ✅ Full API Key
+VirusTotal ✅ Full API Key
+AlienVault OTX ✅ Full API Key
+GreyNoise ✅ Full API Key
+SecurityTrails ✅ Full API Key
+Hunter.io ✅ Full API Key
+ZoomEye ✅ Full API Key
+FOFA ✅ Full API Key
+Quake ✅ Full API Key
+OpenAI ✅ Full API Key
+Anthropic ✅ Full API Key
+
+---
+
+📊 9. RESOURCE REQUIREMENTS
+
+Resource Minimum Recommended
+RAM 512 MB 2 GB+
+CPU 1 Core 4 Cores+
+Disk 100 MB 1 GB+
+Network 1 Mbps 10 Mbps+
+Python 3.8+ 3.11+
+Storage SSD (any) NVMe (speed)
+
+---
+
+🚀 10. QUICK DEPLOYMENT EXAMPLES
+
+Linux (Ubuntu/Debian)
+
+```bash
+sudo apt update && sudo apt install python3 python3-pip -y
+python3 omega.py
+```
+
+Windows (with Python installed)
+
+```cmd
+python omega.py
+```
+
+macOS
+
+```bash
+brew install python3
+python3 omega.py
+```
+
+Docker
+
+```bash
+docker run -it --rm --network host python:3.11-slim bash
+apt update && apt install -y python3-pip
+# Copy omega.py and run
+```
+
+Raspberry Pi
+
+```bash
+sudo apt install python3 python3-pip
+python3 omega_v6.py
+```
+
+Android (Termux)
+
+```bash
+pkg install python
+python omega.py
+```
+
+Kali Linux (Pre-installed)
+
+```bash
+python3 omega.py
+# All tools pre-configured
+```
+
+---
+
+⚠️ 11. LIMITATIONS (Rare)
+
+Scenario Impact Workaround
+No root/admin Limited network functions Use sudo/admin
+Firewall restrictions Port scanning blocked Use stealth proxies
+Air-gapped networks No API intel Offline mode
+Low memory (<512MB) Performance degraded Minimal mode
+Old Python (<3.8) Incompatible Upgrade Python
+
+---
+
+✅ CONCLUSION
+
+OMEGA v6.0 runs on:
+
+· ✅ All modern operating systems
+· ✅ All major hardware architectures
+· ✅ Cloud, VM, bare metal, containers
+· ✅ With or without external tools
+· ✅ Online or offline
+· ✅ With minimal resources
+
+---
+
+OMEGA v6.0 — Universal. Unstoppable. Yours.
 ### 🤝 Support the Project
 Developing and maintaining a massive open-source project like OMEGA v6.0 requires hundreds of hours of coding, research, and testing. If you find this cybersecurity tool useful and want to keep the development going, please consider supporting my work.
 
