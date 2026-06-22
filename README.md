@@ -260,7 +260,7 @@ Windows 11 ✅ Native Full Python support
 Windows Server 2019+ ✅ Native Enterprise deployment
 FreeBSD 12+ ✅ Partial Limited testing
 Android 10+ (Termux) ✅ Partial Mobile operations
-
+Android 10+ (Nix-on-Droid)  ✅ Partial Mobile operations
 ---
 
 🖥️ 2. HARDWARE ARCHITECTURES
